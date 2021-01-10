@@ -14,11 +14,13 @@ with open(budget_data, 'r') as csv_file:
 
     #find the total in the profit/losses column [1]
     total_months = 0
-    
+    total_profit = 0.0
 
     for row in csv_reader:
         total_months += 1
+        total_profit += int(row[1])
         
     print("Financial Analysis")
     print("------------------")
     print(f"Total Months: {total_months}")
+    print(f"Total: $ {total_profit}")
