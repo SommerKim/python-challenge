@@ -35,8 +35,8 @@ with open(budget_data, 'r') as csv_file:
     average_change = change_sum /(total_months - 1)
     average_change = "{:,.2f}".format(average_change)
     
-    
-with open("budget.txt", 'w') as budget_txt:
+
+with open(os.path.join('./Analysis', "budget.txt"), 'w') as budget_txt:
     output = f"Financial Analysis\n" \
              f"------------------\n" \
              f"Total Months: {total_months}\n" \
