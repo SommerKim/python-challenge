@@ -1,6 +1,6 @@
 # python-challenge
 
-For these projects, I used basic for loops, if/elif statements to read a .csv file and summarize the data within. 
+For these projects, I used basic for loops, if/elif statements, and mathematical calculations to read a .csv file and summarize the data within. 
 
 Running PyBank will produce a financial analysis text file summarizing budget data from a table that provides the profits and losses per month of some company. The summary provides the total number of months represented, the total profit in dollars, and the average change from month to month. The summary also shows which months saw the largest increase and largest decrease in profits from the previous month.
 
